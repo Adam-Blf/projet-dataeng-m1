@@ -10,7 +10,6 @@ Ce projet implémente une plateforme de données complète pour l'analyse des ve
 ## Équipe
 - **Adam BELOUCIF** ([@Adam-Blf](https://github.com/Adam-Blf))
 - **Emilien MORICE** ([@emilien754](https://github.com/emilien754))
-- **Arnaud DISSONGO** ([@Panason1c](https://github.com/Panason1c))
 
 ## Architecture
 1. **Ingestion (Raw)** : `feeder.py` - Ingestion des fichiers CSV vers Parquet avec partitionnement temporel.
