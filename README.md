@@ -1,9 +1,12 @@
 # Projet Data Engineering M1 · Architecture Medaillon Olist
 
-![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=Streamlit&logoColor=white)
+![Status](https://img.shields.io/badge/status-academic-blue)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Spark](https://img.shields.io/badge/Apache_Spark-E25A1C?logo=apachespark&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)
+![Medallion](https://img.shields.io/badge/Architecture-Medallion-4285F4)
+![EFREI M1](https://img.shields.io/badge/EFREI-M1_Data_Eng-000091)
 
 Plateforme data complete sur le jeu de donnees e-commerce Olist (Brazilian Marketplace) construite selon l'architecture Medaillon Bronze / Silver / Gold avec Apache Spark. Livrable binome du cours Data Engineering EFREI M1.
 
