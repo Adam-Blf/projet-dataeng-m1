@@ -26,29 +26,19 @@ Construire un pipeline end-to-end de qualite production sur 9 fichiers CSV Olist
 
 ## Architecture
 
-```
-CSV Olist
-   |
-   v  feeder.py
-+----------+   ingestion Spark + partitionnement temporel
-|  Bronze  |   (raw Parquet)
-+-----+----+
-      v  processor.py
-+----------+   nettoyage, typage, validation metier,
-|  Silver  |   jointures complexes
-+-----+----+
-      v  datamart.py
-+----------+   agregations business, export SQLite
-|   Gold   |   (faits + dimensions)
-+-----+----+
-      v
-+----------+   FastAPI + JWT + pagination
-|   API    |
-+-----+----+
-      v
-+----------+   Streamlit · KPIs, filtres, graphes
-|Dashboard |
-+----------+
+```mermaid
+flowchart TB
+    SRC["CSV Olist<br/>9 fichiers · orders · items · payments"]
+    FEED["feeder.py<br/>ingestion Spark · partition annee/mois/jour"]
+    BRONZE["Couche Bronze<br/>Parquet snappy · raw"]
+    PROC["processor.py<br/>nettoyage · validation metier · jointures"]
+    SILVER["Couche Silver<br/>order_items · customer_rankings"]
+    MART["datamart.py<br/>schema en etoile · agregations"]
+    GOLD["Couche Gold<br/>SQLite · faits + dimensions"]
+    API["api.py<br/>FastAPI · JWT Bearer · pagination"]
+    DASH["app.py<br/>Streamlit · KPIs · cartes · top vendeurs"]
+
+    SRC --> FEED --> BRONZE --> PROC --> SILVER --> MART --> GOLD --> API --> DASH
 ```
 
 ## Methode
