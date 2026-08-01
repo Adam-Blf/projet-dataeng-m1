@@ -1,5 +1,7 @@
 # Projet Data Engineering M1 - Architecture Medaillon Olist
 
+[![version](https://img.shields.io/badge/version-0.1.0-000091?style=flat-square)](https://github.com/Adam-Blf/projet-dataeng-m1/releases)
+
 <!-- adam-badges:start -->
 [![commits](https://img.shields.io/github/commit-activity/t/Adam-Blf/projet-dataeng-m1?color=001329&label=commits&style=flat-square)](https://github.com/Adam-Blf/projet-dataeng-m1/commits) [![visites](https://hits.sh/github.com/Adam-Blf/projet-dataeng-m1.svg?style=flat-square&label=visites&color=001329)](https://hits.sh/github.com/Adam-Blf/projet-dataeng-m1/) [![last commit](https://img.shields.io/github/last-commit/Adam-Blf/projet-dataeng-m1?color=D4A437&style=flat-square&label=dernier%20push)](https://github.com/Adam-Blf/projet-dataeng-m1/commits) [![top language](https://img.shields.io/github/languages/top/Adam-Blf/projet-dataeng-m1?style=flat-square)](https://github.com/Adam-Blf/projet-dataeng-m1) [![license](https://img.shields.io/github/license/Adam-Blf/projet-dataeng-m1?style=flat-square&color=D4A437)](LICENSE)
 <!-- adam-badges:end -->
